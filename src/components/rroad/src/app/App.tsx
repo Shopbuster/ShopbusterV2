@@ -43,7 +43,6 @@ export default function App() {
   const { user } = useAuth();
   const [rewards, setRewards] = useState<Reward[]>(initialRewards);
   const [showResetMessage, setShowResetMessage] = useState(false);
-  const [setLoading] = useState(true);
   const [userPoints, setUserPoints] = useState(0);
 
   // Fetch user's reward data
