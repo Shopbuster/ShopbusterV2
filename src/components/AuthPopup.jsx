@@ -169,12 +169,13 @@ const AuthPopup = ({ onClose }) => {
           <div className="success-message-box bounce-in">
             <div className="success-icon">✓</div>
             <h3 style={{ color: '#fff', marginBottom: '8px' }}>Account Created!</h3>
-            <p className="success-text">Please check your email to verify your account.</p>
+            <p className="success-text">Account successfully created. You can log in!</p>
           </div>
         </div>
       )}
     </div>
   );
 };
+
 
 export default AuthPopup;
